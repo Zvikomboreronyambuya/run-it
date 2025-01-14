@@ -1,8 +1,16 @@
+// AuthContext.js 
+
 import React, { createContext, useState, useContext } from 'react';
 import { login as mockLogin, signup as mockSignup } from '../api/MockApi';
 
 const AuthContext = createContext();
 
+/**
+ * Provides authentication functionality to the application.
+ * @param {Object} props - The component props.
+ * @param {ReactNode} props.children - The child components.
+ * @returns {ReactNode} The component with authentication context.
+ */
 export const AuthProvider = ({ children }) => {
     const [user, setUser] = useState(null);
     const [isAuthenticated, setIsAuthenticated] = useState(false);
