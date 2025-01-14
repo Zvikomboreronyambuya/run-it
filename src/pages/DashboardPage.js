@@ -83,11 +83,7 @@ const DashboardPage = () => {
             },
         },
     };
-
-    if (!user) {
-        return <p className="dashMessage">Please login to view Dashboard</p>;
-    }
-
+  
     return (
         <div>
             <h1 className="greeting">
