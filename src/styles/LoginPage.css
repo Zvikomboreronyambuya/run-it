@@ -1,0 +1,109 @@
+.app-introduction {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.app-introduction h1 {
+    font-size: 2.5rem;
+    color: #020617;
+    margin-bottom: 10px;
+}
+
+.app-introduction p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+.features-overview {
+    margin-top: 30px;
+}
+
+.features-overview h2 {
+    font-size: 1.8rem;
+    color: #020617;
+    margin-bottom: 15px;
+}
+
+.features-overview ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style: none;
+}
+
+.features-overview li {
+    text-align: center;
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.feature {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.login-form {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #020617;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: 'Quicksand', sans-serif;  
+}
+
+.authentic {
+    width: 100%;
+    padding: 10px;
+    background-color: #BAFF39;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #020617;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.authentic:hover {
+    background-color: #9ee629;
+}
+
+.toggle-auth {
+    text-align: center;
+    margin-top: 15px;
+    cursor: pointer;
+    color: #020617;
+    font-weight: 700;
+}
+
+.auth-heading {
+    text-align: center;
+    margin-top: 20px;
+    color: #020617;
+}

@@ -1,0 +1,88 @@
+.greeting {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    color: #020617;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+section {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.recent-runs,
+.progress-chart {
+    font-size: 1.8rem;
+    color: #020617;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.recent-runs::after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 3px;
+    background-color: #BAFF39;
+    margin-top: 5px;
+    border-radius: 2px;
+    animation: slideIn 1s ease-in-out;
+}
+
+.progress-chart::after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 3px;
+    background-color: #BAFF39;
+    margin-top: 5px;
+    border-radius: 2px;
+    animation: slideIn 1s ease-in-out;
+    text-align: center;
+}
+
+.dash-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+.dash-list {
+    list-style: none;
+    padding: 0;
+}
+
+.run-list {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.run-list p {
+    margin: 5px 0;
+    color: #333;
+}
+
+.run-list strong {
+    color: #020617;
+}
+
+.run-list:hover {
+    transform: scale(1.01);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.progress-chart-container {
+    height: 700px;
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+}

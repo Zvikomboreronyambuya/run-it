@@ -1,0 +1,27 @@
+{
+  "short_name": "Run-It",
+  "name": "Run-It App",
+  "description": "Track your runs and improve your performance",
+  "icons": [
+    {
+      "src": "icons8-running-ios-17-filled-96",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icons8-running-50",
+      "type": "image/png",
+      "sizes": "50x50"
+    },
+    {
+      "src": "icons8-running-100",
+      "type": "image/png",
+      "sizes": "100x100"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary"
+}
