@@ -46,13 +46,6 @@ section {
     text-align: center;
 }
 
-.dash-message {
-    text-align: center;
-    font-size: 1.2rem;
-    color: #555;
-    margin-top: 10px;
-}
-
 .dash-list {
     list-style: none;
     padding: 0;
